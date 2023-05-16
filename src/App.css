@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+.container {
+  width: 90%;
+}
+.containerInput {
+  width: 70%;
+}
+.col{
+  grid-template-rows: 10% 85% 5%;
+  
+}
+.index{
+  z-index: 100;
+}
+.active{
+  filter: blur(5px) brightness(0.7);
+}
+.non-active{
+  filter: blur(0px) brightness(1);
+}
+.trans{
+  transition: 600ms ease-in-out;
+}
